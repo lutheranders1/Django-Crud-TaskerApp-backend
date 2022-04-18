@@ -131,7 +131,7 @@ STATIC_ROOT = os.path.join(BASE_DIR, 'static'),
 STATICFILES_STORAGE = 'whitenoise.storage.CompressedManifestStaticFilesStorage'
 
 ALLOWED_HOSTS = [
-    'localhost', '127.0.0.1.8000', 'mysterious-woodland-50222.herokuapp.com'
+    'localhost', '127.0.0.1', 'mysterious-woodland-50222.herokuapp.com'
 ]
 
 CORS_ORIGIN_WHITELIST = ['http://localhost:3000']
